@@ -5,7 +5,7 @@ later_greeting="How are you?"
 greeting_occasion=0
 
 echo "How many times should I greet you?"
-read greeting_limit
+greeting_limit=$1
 
 while [ $greeting_occasion -lt $greeting_limit ]
     do
